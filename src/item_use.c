@@ -704,11 +704,6 @@ void ItemUseOutOfBattle_WailmerPail(u8 taskId)
         sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailSudowoodo;
         SetUpItemUseOnFieldCallback(taskId);
     }
-    else if (TryToWaterBerryTree() == TRUE)
-    {
-        sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailBerry;
-        SetUpItemUseOnFieldCallback(taskId);
-    }
     else
     {
         DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
