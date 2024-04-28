@@ -9,8 +9,6 @@
 #define TYPE_POISON           3
 #define TYPE_GROUND           4
 #define TYPE_ROCK             5
-#define TYPE_BUG              6
-#define TYPE_GHOST            7
 #define TYPE_STEEL            8
 #define TYPE_MYSTERY          9
 #define TYPE_FIRE             10
@@ -19,8 +17,21 @@
 #define TYPE_ELECTRIC         13
 #define TYPE_PSYCHIC          14
 #define TYPE_ICE              15
-#define TYPE_DRAGON           16
 #define TYPE_DARK             17
+
+#define TYPE_BUG              6
+#define TYPE_GHOST            7
+#define TYPE_DRAGON           16
+#define TYPE_BEAST            20 
+#define TYPE_RODENT           21 
+#define TYPE_FELINE           22 
+#define TYPE_CANINE           23 
+
+
+#define TYPE_BIG              18
+#define TYPE_LITTLE           19
+#define TYPE_LIQUID           24 
+
 #define NUMBER_OF_MON_TYPES   18
 
 // Pokémon egg groups
