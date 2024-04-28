@@ -22,15 +22,15 @@
 #define TYPE_BUG              6
 #define TYPE_GHOST            7
 #define TYPE_DRAGON           16
-#define TYPE_BEAST            20 
-#define TYPE_RODENT           21 
-#define TYPE_FELINE           22 
-#define TYPE_CANINE           23 
+//#define TYPE_BEAST            20 
+//#define TYPE_RODENT           21 
+//#define TYPE_FELINE           22 
+//#define TYPE_CANINE           23 
 
 
-#define TYPE_BIG              18
-#define TYPE_LITTLE           19
-#define TYPE_LIQUID           24 
+//#define TYPE_BIG              18
+//#define TYPE_LITTLE           19
+//#define TYPE_LIQUID           24 
 
 #define NUMBER_OF_MON_TYPES   18
 
